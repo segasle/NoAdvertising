@@ -11,7 +11,8 @@
         "js/main.js"
       ],
       "matches":[
-        "http://www.kinosezon.tv/*"
+        "http://www.kinosezon.tv/*",
+        "https://ereko.tv/*"
       ],
       "run_at": "document_end"
     }
@@ -19,6 +20,8 @@
   "description": "Мое браузерное приложение",
   "name": "NoAdver",
   "browser_action": {
-    "defalt_icon": "img/icon.png"
-  }
+    "default_icon": "icon.png"
+  },
+  "manifest_version": 2,
+  "version": "1.0"
 }
